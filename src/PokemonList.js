@@ -15,7 +15,7 @@ function PokemonList() {
 
     return (
         <>
-            <h2 className="pokemon-title">Pokémon List</h2>
+            <h2 className="pokemon-title">Pokemon List</h2>
             <ol className="pokemon-list">
                 {pokemon.map(pokemons => {
                     let nameSlpit = pokemons.url.split("/");
